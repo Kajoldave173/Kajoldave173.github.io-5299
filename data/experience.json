@@ -10,7 +10,8 @@
       "description": "Product Analyst at SupplyBistro, USA",
       "responsibilities": [
         "Worked as Product Analyst at SupplyBistro, USA"
-      ]
+      ],
+      "logo": "assets/img/logos/supplybistro.png"
     },
     {
       "title": "Data Scientist Intern",
@@ -23,7 +24,9 @@
         "Reduced overstock and allocation gaps by building demand forecasting models in Python and Azure Databricks, evaluating seasonality and product trends across the same SKU base to improve forecast accuracy by 18% and support inventory planning",
         "Designed and launched an executive Power BI platform tracking market share, category growth, and campaign KPIs across syndicated retail data, enabling quarterly business reviews for 300+ stakeholders and eliminating 5+ manual Excel processes",
         "Cut weekly reporting preparation by 6-8 hours by automating product-data pipelines using Python, Airflow, and Databricks"
-      ]
+      ],
+      "logo": "assets/img/logos/stanley-black-decker.svg",
+      "logoWide": true
     },
     {
       "title": "Data Scientist",
@@ -38,7 +41,9 @@
         "Created a Marketing Mix Modeling application with multi-touch attribution in PySpark and Databricks SQL, quantifying incremental lift across 5 channels and enabling optimization of $8M+ in annual media spend, improving blended ROAS by 14%",
         "Designed reusable model management workflows using Databricks Feature Store and MLflow, cataloging 75+ features and versioning 12 production models, reducing retraining time by 40%",
         "Delivered Power BI dashboards connected via DirectLake to Gold Delta tables, giving planners and stakeholders self-serve access to 20+ KPIs and reducing ad-hoc reporting requests by 60%"
-      ]
+      ],
+      "logo": "assets/img/logos/cybage.png",
+      "logoWide": true
     },
     {
       "title": "Data Associate",
@@ -53,7 +58,8 @@
         "Engineered OCR ingestion pipelines to convert 60K+ unstructured mortgage documents into structured, compliance-ready datasets, reducing underwriting preparation time by 45%",
         "Automated validation, cleansing, and document processing workflows using Python, SQL, and UiPath, enforcing regulatory rules across loan records and eliminating 3 manual roles from the review pipeline",
         "Standardized profiling and quality-assurance processes across both project pipelines, resolving 18 recurring issues and reducing audit exceptions by 40%"
-      ]
+      ],
+      "logo": "assets/img/logos/mphasis.svg"
     }
   ]
 }

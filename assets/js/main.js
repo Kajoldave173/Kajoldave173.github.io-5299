@@ -120,6 +120,14 @@ async function loadAbout() {
     }
 }
 
+// Organisation mark: logo on a light chip, or an initials monogram
+function orgMark(name, logo, wide) {
+    const clean = (name || '').split(',')[0].trim();
+    if (logo) return `<span class="org-mark${wide ? ' org-mark--wide' : ''}"><img src="${logo}" alt="${clean} logo" loading="lazy"></span>`;
+    const initials = clean.split(/\s+/).filter(w => /^[A-Za-z]/.test(w)).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+    return `<span class="org-mark org-mark--mono" aria-hidden="true">${initials}</span>`;
+}
+
 // NEW: Load work experience (STANDARDIZED)
 async function loadExperience() {
     try {
@@ -139,11 +147,16 @@ async function loadExperience() {
             const tech = Array.isArray(job.technologies) ? job.technologies : [];
             return `
             <article class="experience-item">
-                <div class="experience-header">
-                    <h3 class="experience-role">${job.title || ''}</h3>
-                    <span class="experience-period">${job.period || ''}</span>
+                <div class="experience-org">
+                    ${orgMark(job.company, job.logo, job.logoWide)}
+                    <div class="experience-org-text">
+                        <div class="experience-header">
+                            <h3 class="experience-role">${job.title || ''}</h3>
+                            <span class="experience-period">${job.period || ''}</span>
+                        </div>
+                        <p class="experience-company">${job.company || ''}${job.location ? ` <span>· ${job.location}</span>` : ''}</p>
+                    </div>
                 </div>
-                <p class="experience-company">${job.company || ''}${job.location ? ` <span>· ${job.location}</span>` : ''}</p>
                 ${job.description ? `<p class="experience-description">${job.description}</p>` : ''}
                 ${points.length ? `<ul class="experience-points">${points.map(p => `<li>${p}</li>`).join('')}</ul>` : ''}
                 ${tech.length ? `<div class="experience-tech">${tech.map(t => `<span>${t}</span>`).join('')}</div>` : ''}
@@ -169,13 +182,15 @@ async function loadProjects() {
                 // Support both "technologies" and "tags"
                 const tags = project.technologies || project.tags || [];
 
+                const link = project.github || (project.links && project.links.github) || '';
                 return `<div class="work-card">
-                    <div class="work-image" style="background-image: url('${project.image}')">
+                    <div class="work-image">
+                        ${project.image ? `<img src="${project.image}" alt="" loading="lazy" decoding="async">` : ''}
                         <div class="work-icon"><i class="${project.icon}"></i></div>
                     </div>
                     <div class="work-content">
                         <p class="work-category">${project.category}</p>
-                        <h3 class="work-title">${project.title}</h3>
+                        <h3 class="work-title">${link ? `<a href="${link}" target="_blank" rel="noopener">${project.title}</a>` : project.title}</h3>
                         <p class="work-description">${project.description}</p>
                         <div class="work-tags">
                             ${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
@@ -213,8 +228,32 @@ async function loadSkills() {
 async function loadEducation() {
     try {
         const data = await fetch('data/education.json').then(r => r.json());
-        // Education section rendering - template may not display this
-        console.log('Education data loaded (not displayed in this template):', data);
+        const container = document.getElementById('education-list');
+        const items = Array.isArray(data.education) ? data.education : [];
+        const section = document.getElementById('education');
+        if (!container || !items.length) { if (section) section.style.display = 'none'; return; }
+
+        const titleEl = document.getElementById('education-title');
+        if (titleEl && data.sectionTitle) titleEl.textContent = data.sectionTitle;
+
+        container.innerHTML = items.map(edu => {
+            const school = edu.school || edu.institution || '';
+            const details = edu.details || edu.description || '';
+            return `
+            <article class="experience-item">
+                <div class="experience-org">
+                    ${orgMark(school, edu.logo, edu.logoWide)}
+                    <div class="experience-org-text">
+                        <div class="experience-header">
+                            <h3 class="experience-role">${edu.degree || ''}</h3>
+                            <span class="experience-period">${edu.period || ''}</span>
+                        </div>
+                        <p class="experience-company">${school}</p>
+                    </div>
+                </div>
+                ${details ? `<p class="experience-description">${details}</p>` : ''}
+            </article>`;
+        }).join('');
     } catch (error) {
         console.error('Error loading education:', error);
     }

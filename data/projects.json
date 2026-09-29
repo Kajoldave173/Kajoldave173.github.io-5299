@@ -21,7 +21,7 @@
         "Gamma-Gamma"
       ],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/clv-engine.webp",
       "featured": true,
       "status": "Completed",
       "role": "Lead Developer",
@@ -54,7 +54,7 @@
         "Streamlit"
       ],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/experimentation-platform.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -82,7 +82,7 @@
         "Jupyter Notebook"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/carinsuranceclaims.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -110,7 +110,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/surecast.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -138,7 +138,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/email-phishing-detection.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -166,7 +166,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/infohunter.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -194,7 +194,7 @@
         "Jupyter Notebook"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/fraud-detection-in-python.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -222,7 +222,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/modelcard.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -250,7 +250,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/calibratekit.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -279,7 +279,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/stockastic.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -308,7 +308,7 @@
         "Dockerfile"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/driftguard.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -343,7 +343,7 @@
         "Batchfile"
       ],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/ai_soc.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -371,7 +371,7 @@
         "HTML"
       ],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/Kajoldave173.github.io.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -399,7 +399,7 @@
         "Jupyter Notebook"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/credit-risk-lgd-modeling.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -427,7 +427,7 @@
         "Jupyter Notebook"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/earnings-call-sentiment-analysis.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -456,7 +456,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/predictinghouseprice.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -484,7 +484,7 @@
         "Jupyter Notebook"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/airbnbmarkettrends.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -510,7 +510,7 @@
       "category": "Development",
       "technologies": [],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/drivesafe.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -536,7 +536,7 @@
       "category": "Development",
       "technologies": [],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/jubilant-adventure.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -564,7 +564,7 @@
         "Python"
       ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/fraud-detection-system.webp",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
