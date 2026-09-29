@@ -1,0 +1,18 @@
+{
+  "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
+  "meta": {
+    "title": "Kajol Dave | Data Scientist",
+    "description": "Kajol Dave - Data Scientist | Portfolio",
+    "author": "Kajol Dave",
+    "keywords": "Data Scientist, Portfolio, Kajol Dave"
+  },
+  "branding": {
+    "name": "Kajol Dave",
+    "tagline": "Data Scientist"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "navbarScrollEffect": true
+  }
+}

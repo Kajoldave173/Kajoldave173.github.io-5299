@@ -1,0 +1,16 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master of Science",
+      "school": "University of Massachusetts Amherst",
+      "institution": "University of Massachusetts Amherst",
+      "period": "Aug 2024 – May 2026",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": []
+}

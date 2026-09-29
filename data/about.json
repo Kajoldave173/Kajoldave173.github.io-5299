@@ -1,0 +1,24 @@
+{
+  "_instructions": "About section content - tell your professional story and showcase key metrics.",
+  "sectionTitle": "About Me",
+  "content": [
+    "Data Scientist with 4+ years of experience in retail and digital marketing, building demand forecasting models, marketing mix models, and real-time personalization pipelines that drive revenue, reduce cost, and inform commercial strategy"
+  ],
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "title": "4+",
+      "description": "Companies"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "title": "2+",
+      "description": "Projects"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "23+",
+      "description": "Skills"
+    }
+  ]
+}

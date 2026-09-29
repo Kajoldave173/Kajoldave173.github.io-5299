@@ -1,0 +1,59 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Product Analyst",
+      "company": "SupplyBistro, USA",
+      "period": "Sep 2026 – Present",
+      "location": "",
+      "description": "Product Analyst at SupplyBistro, USA",
+      "responsibilities": [
+        "Worked as Product Analyst at SupplyBistro, USA"
+      ]
+    },
+    {
+      "title": "Data Scientist Intern",
+      "company": "Stanley Black & Decker, USA",
+      "period": "Feb 2026 – May 2026",
+      "location": "",
+      "description": "Identified revenue opportunities through attachment rate and cross-purchase analysis across 2,600+ SKUs, surfacing 12 underperforming product categories and informing targeted bundling and assortment recommendations for commercial teams. Reduced overstock and allocation gaps by building demand forecasting models in Python and Azure Databricks, evaluating seasonality and product trends across the same SKU base to improve forecast accuracy by 18% and support inventory planning. Designed and launched an executive Power BI platform tracking market share, category growth, and campaign KPIs across syndicated retail data, enabling quarterly business reviews for 300+ stakeholders and eliminating 5+ manual Excel processes. Cut weekly reporting preparation by 6-8 hours by automating product-data pipelines using Python, Airflow, and Databricks.",
+      "responsibilities": [
+        "Identified revenue opportunities through attachment rate and cross-purchase analysis across 2,600+ SKUs, surfacing 12 underperforming product categories and informing targeted bundling and assortment recommendations for commercial teams",
+        "Reduced overstock and allocation gaps by building demand forecasting models in Python and Azure Databricks, evaluating seasonality and product trends across the same SKU base to improve forecast accuracy by 18% and support inventory planning",
+        "Designed and launched an executive Power BI platform tracking market share, category growth, and campaign KPIs across syndicated retail data, enabling quarterly business reviews for 300+ stakeholders and eliminating 5+ manual Excel processes",
+        "Cut weekly reporting preparation by 6-8 hours by automating product-data pipelines using Python, Airflow, and Databricks"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Cybage Software, India",
+      "period": "Sep 2021 – Jul 2024",
+      "location": "",
+      "description": "Built a demand forecasting engine for a US home decor retailer using XGBoost and Prophet on Azure Databricks, parallelizing training across 3,000 SKUs with Spark Pandas UDFs, achieving 94% forecast accuracy over a 12-week cycle and identifying 65% of negative-GMROI products for inventory purge decisions. Engineered behavioral and transactional features powering a real-time recommendation system for a SaaS platform, processing 5M records via Structured Streaming and Event Hubs and contributing to a 22% improvement in targeted conversion rates across 6 segments. Developed automated ETL pipelines in Azure Data Factory to normalize cross-channel campaign data from 5 ad platforms (Google, Meta, programmatic, CTV, email) into a Medallion Architecture for a US agency, eliminating 25 hours/month of manual consolidation. Created a Marketing Mix Modeling application with multi-touch attribution in PySpark and Databricks SQL, quantifying incremental lift across 5 channels and enabling optimization of $8M+ in annual media spend, improving blended ROAS by 14%. Designed reusable model management workflows using Databricks Feature Store and MLflow, cataloging 75+ features and versioning 12 production models, reducing retraining time by 40%. Delivered Power BI dashboards connected via DirectLake to Gold Delta tables, giving planners and stakeholders self-serve access to 20+ KPIs and reducing ad-hoc reporting requests by 60%.",
+      "responsibilities": [
+        "Built a demand forecasting engine for a US home decor retailer using XGBoost and Prophet on Azure Databricks, parallelizing training across 3,000 SKUs with Spark Pandas UDFs, achieving 94% forecast accuracy over a 12-week cycle and identifying 65% of negative-GMROI products for inventory purge decisions",
+        "Engineered behavioral and transactional features powering a real-time recommendation system for a SaaS platform, processing 5M records via Structured Streaming and Event Hubs and contributing to a 22% improvement in targeted conversion rates across 6 segments",
+        "Developed automated ETL pipelines in Azure Data Factory to normalize cross-channel campaign data from 5 ad platforms (Google, Meta, programmatic, CTV, email) into a Medallion Architecture for a US agency, eliminating 25 hours/month of manual consolidation",
+        "Created a Marketing Mix Modeling application with multi-touch attribution in PySpark and Databricks SQL, quantifying incremental lift across 5 channels and enabling optimization of $8M+ in annual media spend, improving blended ROAS by 14%",
+        "Designed reusable model management workflows using Databricks Feature Store and MLflow, cataloging 75+ features and versioning 12 production models, reducing retraining time by 40%",
+        "Delivered Power BI dashboards connected via DirectLake to Gold Delta tables, giving planners and stakeholders self-serve access to 20+ KPIs and reducing ad-hoc reporting requests by 60%"
+      ]
+    },
+    {
+      "title": "Data Associate",
+      "company": "Mphasis, India",
+      "period": "Mar 2020 – Aug 2021",
+      "location": "",
+      "description": "Built ETL pipelines in Python and SQL to support a Tier-1 bank's cloud-native migration, containerizing transaction data services using Docker and Kubernetes on Azure and reducing processing cycle time by 35% across 4 banking domains. Validated real-time Kafka event streams across 22M+ records during parallel-run migration, achieving 99.8% data consistency between legacy and microservices environments. Engineered OCR ingestion pipelines to convert 60K+ unstructured mortgage documents into structured, compliance-ready datasets, reducing underwriting preparation time by 45%. Automated validation, cleansing, and document processing workflows using Python, SQL, and UiPath, enforcing regulatory rules across loan records and eliminating 3 manual roles from the review pipeline. Standardized profiling and quality-assurance processes across both project pipelines, resolving 18 recurring issues and reducing audit exceptions by 40%.",
+      "responsibilities": [
+        "Built ETL pipelines in Python and SQL to support a Tier-1 bank's cloud-native migration, containerizing transaction data services using Docker and Kubernetes on Azure and reducing processing cycle time by 35% across 4 banking domains",
+        "Validated real-time Kafka event streams across 22M+ records during parallel-run migration, achieving 99",
+        "8% data consistency between legacy and microservices environments",
+        "Engineered OCR ingestion pipelines to convert 60K+ unstructured mortgage documents into structured, compliance-ready datasets, reducing underwriting preparation time by 45%",
+        "Automated validation, cleansing, and document processing workflows using Python, SQL, and UiPath, enforcing regulatory rules across loan records and eliminating 3 manual roles from the review pipeline",
+        "Standardized profiling and quality-assurance processes across both project pipelines, resolving 18 recurring issues and reducing audit exceptions by 40%"
+      ]
+    }
+  ]
+}

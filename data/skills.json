@@ -1,0 +1,81 @@
+{
+  "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
+  "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "R",
+        "Pandas",
+        "NumPy",
+        "SciPy"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "UiPath",
+        "MLflow",
+        "DVC",
+        "Git",
+        "Apache Airflow"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "Azure Databricks",
+        "ADLS Gen2",
+        "Azure Data Factory",
+        "Azure Event Hubs",
+        "Azure Cosmos DB",
+        "Azure DevOps",
+        "Databricks Feature Store",
+        "Unity Catalog",
+        "Power BI",
+        "Tableau",
+        "Streamlit",
+        "Plotly",
+        "Kafka"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "XGBoost",
+        "LightGBM",
+        "Prophet",
+        "Random Forest",
+        "Logistic Regression",
+        "ARIMA",
+        "BG/NBD",
+        "SHAP",
+        "Marketing Mix Modeling",
+        "Multi-Touch Attribution",
+        "RFM Analysis",
+        "Customer Segmentation",
+        "CLV Modeling",
+        "Propensity Modeling",
+        "Demand Forecasting",
+        "Recommendation Systems",
+        "A/B Testing",
+        "Sequential Testing (mSPRT)",
+        "ETL/ELT",
+        "Delta Lake",
+        "Medallion Architecture",
+        "Structured Streaming",
+        "OCR/ADR"
+      ]
+    }
+  ]
+}

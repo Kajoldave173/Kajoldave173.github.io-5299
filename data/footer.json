@@ -1,0 +1,15 @@
+{
+  "_instructions": "Footer content - copyright and social links.",
+  "text": "Designed & Built by Kajol Dave",
+  "copyright": "© 2026 All rights reserved.",
+  "links": [
+    {
+      "text": "GitHub",
+      "url": "https://github.com/Kajoldave173/"
+    },
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kajol-dave"
+    }
+  ]
+}

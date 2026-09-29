@@ -1,0 +1,587 @@
+{
+  "_instructions": "Add your professional projects.",
+  "sectionTitle": "Portfolio",
+  "subtitle": "Featured professional projects",
+  "projects": [
+    {
+      "title": "Customer Lifetime Value Prediction & Segmentation Engine",
+      "description": "Engineered a hybrid probabilistic-ML pipeline (BG/NBD + Gamma-Gamma + Optuna-tuned XGBoost) on 1M+ e-commerce transactions, halving CLV prediction error over the probabilistic-only baseline (MAE £673 to £334, R² 0.965). Built a CLV scoring dashboard with SHAP explanations and What-If simulator for campaign ROI estimation, backed by PSI drift monitoring, 94 pytest tests, and DVC-versioned artifacts",
+      "longDescription": "Engineered a hybrid probabilistic-ML pipeline (BG/NBD + Gamma-Gamma + Optuna-tuned XGBoost) on 1M+ e-commerce transactions, halving CLV prediction error over the probabilistic-only baseline (MAE £673 to £334, R² 0.965). Built a CLV scoring dashboard with SHAP explanations and What-If simulator for campaign ROI estimation, backed by PSI drift monitoring, 94 pytest tests, and DVC-versioned artifacts",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit",
+        "Docker",
+        "MLflow",
+        "DVC",
+        "Optuna",
+        "BG/NBD",
+        "Gamma-Gamma"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/clv-engine",
+      "demo": "https://github.com/Kajoldave173/clv-engine",
+      "links": {
+        "github": "https://github.com/Kajoldave173/clv-engine",
+        "demo": "https://github.com/Kajoldave173/clv-engine",
+        "live": "https://github.com/Kajoldave173/clv-engine"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Online Experimentation Platform Simulator",
+      "description": "Demonstrated that daily A/B test monitoring inflates false positives from 5% to 25-30% on 50K+ simulated sessions, and implemented mSPRT sequential testing enabling valid anytime checks. Reduced user exposure to underperforming test variants by implementing Thompson Sampling bandit that dynamically routes 85%+ of traffic to the winning treatment in real time",
+      "longDescription": "Demonstrated that daily A/B test monitoring inflates false positives from 5% to 25-30% on 50K+ simulated sessions, and implemented mSPRT sequential testing enabling valid anytime checks. Reduced user exposure to underperforming test variants by implementing Thompson Sampling bandit that dynamically routes 85%+ of traffic to the winning treatment in real time",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "SciPy",
+        "statsmodels",
+        "NumPy",
+        "Plotly",
+        "Streamlit"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/experimentation-platform",
+      "demo": "https://github.com/Kajoldave173/experimentation-platform",
+      "links": {
+        "github": "https://github.com/Kajoldave173/experimentation-platform",
+        "demo": "https://github.com/Kajoldave173/experimentation-platform",
+        "live": "https://github.com/Kajoldave173/experimentation-platform"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "carinsuranceclaims",
+      "description": "Insurance companies invest a lot of time and money into optimizing their pricing and accurately estimating the likelihood that customers will make a claim",
+      "longDescription": "Insurance companies invest a lot of time and money into optimizing their pricing and accurately estimating the likelihood that customers will make a claim",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/carinsuranceclaims",
+      "demo": "https://github.com/Kajoldave173/carinsuranceclaims",
+      "links": {
+        "github": "https://github.com/Kajoldave173/carinsuranceclaims",
+        "demo": "https://github.com/Kajoldave173/carinsuranceclaims",
+        "live": "https://github.com/Kajoldave173/carinsuranceclaims"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "surecast",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/surecast",
+      "demo": "https://github.com/Kajoldave173/surecast",
+      "links": {
+        "github": "https://github.com/Kajoldave173/surecast",
+        "demo": "https://github.com/Kajoldave173/surecast",
+        "live": "https://github.com/Kajoldave173/surecast"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "email-phishing-detection",
+      "description": "Modern web application demonstrating clean code principles",
+      "longDescription": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/email-phishing-detection",
+      "demo": "https://github.com/Kajoldave173/email-phishing-detection",
+      "links": {
+        "github": "https://github.com/Kajoldave173/email-phishing-detection",
+        "demo": "https://github.com/Kajoldave173/email-phishing-detection",
+        "live": "https://github.com/Kajoldave173/email-phishing-detection"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "infohunter",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/infohunter",
+      "demo": "https://github.com/Kajoldave173/infohunter",
+      "links": {
+        "github": "https://github.com/Kajoldave173/infohunter",
+        "demo": "https://github.com/Kajoldave173/infohunter",
+        "live": "https://github.com/Kajoldave173/infohunter"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "fraud-detection-in-python",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/fraud-detection-in-python",
+      "demo": "https://github.com/Kajoldave173/fraud-detection-in-python",
+      "links": {
+        "github": "https://github.com/Kajoldave173/fraud-detection-in-python",
+        "demo": "https://github.com/Kajoldave173/fraud-detection-in-python",
+        "live": "https://github.com/Kajoldave173/fraud-detection-in-python"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "modelcard",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/modelcard",
+      "demo": "https://github.com/Kajoldave173/modelcard",
+      "links": {
+        "github": "https://github.com/Kajoldave173/modelcard",
+        "demo": "https://github.com/Kajoldave173/modelcard",
+        "live": "https://github.com/Kajoldave173/modelcard"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "calibratekit",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/calibratekit",
+      "demo": "https://github.com/Kajoldave173/calibratekit",
+      "links": {
+        "github": "https://github.com/Kajoldave173/calibratekit",
+        "demo": "https://github.com/Kajoldave173/calibratekit",
+        "live": "https://github.com/Kajoldave173/calibratekit"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "stockastic",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/stockastic",
+      "demo": "https://github.com/Kajoldave173/stockastic",
+      "links": {
+        "github": "https://github.com/Kajoldave173/stockastic",
+        "demo": "https://github.com/Kajoldave173/stockastic",
+        "live": "https://github.com/Kajoldave173/stockastic"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "driftguard",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/driftguard",
+      "demo": "https://github.com/Kajoldave173/driftguard",
+      "links": {
+        "github": "https://github.com/Kajoldave173/driftguard",
+        "demo": "https://github.com/Kajoldave173/driftguard",
+        "live": "https://github.com/Kajoldave173/driftguard"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "ai_soc",
+      "description": "Practice application demonstrating full-stack development skills",
+      "longDescription": "Practice application demonstrating full-stack development skills",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Shell",
+        "PowerShell",
+        "Dockerfile",
+        "JavaScript",
+        "Zeek",
+        "Batchfile"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/ai_soc",
+      "demo": "https://github.com/Kajoldave173/ai_soc",
+      "links": {
+        "github": "https://github.com/Kajoldave173/ai_soc",
+        "demo": "https://github.com/Kajoldave173/ai_soc",
+        "live": "https://github.com/Kajoldave173/ai_soc"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Kajoldave173.github.io",
+      "description": "Job Portfolio For Kajol Dave",
+      "longDescription": "Job Portfolio For Kajol Dave",
+      "category": "Data Science",
+      "technologies": [
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/Kajoldave173.github.io",
+      "demo": "https://github.com/Kajoldave173/Kajoldave173.github.io",
+      "links": {
+        "github": "https://github.com/Kajoldave173/Kajoldave173.github.io",
+        "demo": "https://github.com/Kajoldave173/Kajoldave173.github.io",
+        "live": "https://github.com/Kajoldave173/Kajoldave173.github.io"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "credit-risk-lgd-modeling",
+      "description": "LGD Modeling & Expected Loss Estimation on 1M+ Freddie Mac mortgage loans using XGBoost and Beta Regression",
+      "longDescription": "LGD Modeling & Expected Loss Estimation on 1M+ Freddie Mac mortgage loans using XGBoost and Beta Regression",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/credit-risk-lgd-modeling",
+      "demo": "https://github.com/Kajoldave173/credit-risk-lgd-modeling",
+      "links": {
+        "github": "https://github.com/Kajoldave173/credit-risk-lgd-modeling",
+        "demo": "https://github.com/Kajoldave173/credit-risk-lgd-modeling",
+        "live": "https://github.com/Kajoldave173/credit-risk-lgd-modeling"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "earnings-call-sentiment-analysis",
+      "description": "Comparing VADER and FinBERT sentiment classification on real LinkedIn financial posts and earnings call language",
+      "longDescription": "Comparing VADER and FinBERT sentiment classification on real LinkedIn financial posts and earnings call language",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/earnings-call-sentiment-analysis",
+      "demo": "https://github.com/Kajoldave173/earnings-call-sentiment-analysis",
+      "links": {
+        "github": "https://github.com/Kajoldave173/earnings-call-sentiment-analysis",
+        "demo": "https://github.com/Kajoldave173/earnings-call-sentiment-analysis",
+        "live": "https://github.com/Kajoldave173/earnings-call-sentiment-analysis"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "predictinghouseprice",
+      "description": "Predicting house price using regression, clustering, random forest",
+      "longDescription": "Predicting house price using regression, clustering, random forest",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/predictinghouseprice",
+      "demo": "https://github.com/Kajoldave173/predictinghouseprice",
+      "links": {
+        "github": "https://github.com/Kajoldave173/predictinghouseprice",
+        "demo": "https://github.com/Kajoldave173/predictinghouseprice",
+        "live": "https://github.com/Kajoldave173/predictinghouseprice"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "airbnbmarkettrends",
+      "description": "Analyzing market trends in New York of Airbnb listings",
+      "longDescription": "Analyzing market trends in New York of Airbnb listings",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/airbnbmarkettrends",
+      "demo": "https://github.com/Kajoldave173/airbnbmarkettrends",
+      "links": {
+        "github": "https://github.com/Kajoldave173/airbnbmarkettrends",
+        "demo": "https://github.com/Kajoldave173/airbnbmarkettrends",
+        "live": "https://github.com/Kajoldave173/airbnbmarkettrends"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "drivesafe",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/drivesafe",
+      "demo": "https://github.com/Kajoldave173/drivesafe",
+      "links": {
+        "github": "https://github.com/Kajoldave173/drivesafe",
+        "demo": "https://github.com/Kajoldave173/drivesafe",
+        "live": "https://github.com/Kajoldave173/drivesafe"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "jubilant-adventure",
+      "description": "My clone repository",
+      "longDescription": "My clone repository",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/jubilant-adventure",
+      "demo": "https://github.com/Kajoldave173/jubilant-adventure",
+      "links": {
+        "github": "https://github.com/Kajoldave173/jubilant-adventure",
+        "demo": "https://github.com/Kajoldave173/jubilant-adventure",
+        "live": "https://github.com/Kajoldave173/jubilant-adventure"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "fraud-detection-system",
+      "description": "GitHub repository: fraud-detection-system",
+      "longDescription": "GitHub repository: fraud-detection-system",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Kajoldave173/fraud-detection-system",
+      "demo": "https://github.com/Kajoldave173/fraud-detection-system",
+      "links": {
+        "github": "https://github.com/Kajoldave173/fraud-detection-system",
+        "demo": "https://github.com/Kajoldave173/fraud-detection-system",
+        "live": "https://github.com/Kajoldave173/fraud-detection-system"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    }
+  ]
+}
